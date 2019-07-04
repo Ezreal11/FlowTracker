@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="317d7294-ed30-4032-9cb5-d1aa6129a686" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="action-tracker-control" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="action-tracker-control" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="action-tracker-control" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="intellij" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyKeystrokeListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1953">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/topic/MyTopicAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/compat/AppInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/persist/Statistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2289">
+              <caret line="195" column="37" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#count#0;class#MyThread#0;class#Statistics#0" />
+                <element signature="method#count2input#0;class#MyThread#0;class#Statistics#0" />
+                <element signature="method#count2development#0;class#MyThread#0;class#Statistics#0" />
+                <element signature="method#count2performance#0;class#MyThread#0;class#Statistics#0" />
+                <element signature="method#execute#0;class#Statistics#0" />
+                <element signature="method#shutdown#0;class#Statistics#0" />
+                <element signature="method#start#0;class#Statistics#0" />
+                <element signature="method#stop#0;class#Statistics#0" />
+                <element signature="method#add#0;class#Statistics#0" />
+                <element signature="method#remove#0;class#Statistics#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/EntryPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyExecutionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyDebugAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/util/AWTUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6741">
+              <caret line="340" selection-start-line="340" selection-end-line="340" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getKeyChar#0;class#AWTUtil#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create</find>
+      <find>createActionPopupMenu</find>
+      <find>TOPIC</find>
+      <find>MyFileDocumentManagerListener</find>
+      <find>name:</find>
+      <find>version</find>
+      <find>getID</find>
+      <find>string</find>
+      <find>Toolkit.getProperty(</find>
+      <find>Minus</find>
+      <find>keyId</find>
+      <find>KEY_RELEASED</find>
+      <find>Back Quote</find>
+      <find>modifiers</find>
+      <find>toString</find>
+      <find>oldState</find>
+      <find>NORMAL</find>
+      <find>NOBUTTON</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/MyApplicationComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/MyApplicationActivationListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyDebugActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/MyActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/topic/MyExecutionTargetListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyEditorFactoryListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyEditorMouseMotionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/Persistence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/PersistenceManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyDebugAgent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/compat/AppInfo.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/statistics/Statistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/persist/Input.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/persist/Development.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/persist/Performance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/persist/JsonIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/persist/Statistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/view/IllustratingAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/view/PerformanceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyExecuteAgent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/persist/IntelliJEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/persist/Persistence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyDebuggerContextListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyDebuggerManagerListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyXBreakpointListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyEditorMouseListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyVisibleAreaListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyCompilationStatusListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyExecutionTargetListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/topic/MyActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyBulkFileListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyDocumentListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyVirtualFileListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyFileDocumentManagerListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyFileEditorManagerListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyPsiTreeChangeListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/view/ScaleManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyEditAgent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyCaretListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MySelectionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/util/VirtualFileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/util/AWTUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyKeystrokeListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/topic/MyTopicAgent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/EntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyExecutionListener.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Apache/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="210" />
+    <option name="y" value="54" />
+    <option name="width" value="1260" />
+    <option name="height" value="945" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="compat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+              <item name="debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+              <item name="edit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+              <item name="execute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+              <item name="topic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="persist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActionTrackerControl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="action-tracker-control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562037001138" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.ActionTrackerControl [runIde]">
+    <configuration name="ActionTrackerControl [runIde]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ActionTrackerControl [runIde]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="317d7294-ed30-4032-9cb5-d1aa6129a686" name="Default Changelist" comment="" />
+      <created>1557483374103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557483374103</updated>
+      <workItem from="1557483381053" duration="770000" />
+      <workItem from="1557484240705" duration="202000" />
+      <workItem from="1557484509766" duration="230000" />
+      <workItem from="1557485562754" duration="3696000" />
+      <workItem from="1557495314860" duration="4736000" />
+      <workItem from="1557500297182" duration="38000" />
+      <workItem from="1557500356800" duration="47000" />
+      <workItem from="1557500421183" duration="102000" />
+      <workItem from="1557500541553" duration="623000" />
+      <workItem from="1557501226680" duration="37000" />
+      <workItem from="1557541747387" duration="7000" />
+      <workItem from="1557659916331" duration="7363000" />
+      <workItem from="1557674662994" duration="2716000" />
+      <workItem from="1557677568845" duration="398000" />
+      <workItem from="1557708051035" duration="2295000" />
+      <workItem from="1557710420904" duration="9343000" />
+      <workItem from="1557722779627" duration="19061000" />
+      <workItem from="1557744647520" duration="185000" />
+      <workItem from="1557744861314" duration="33000" />
+      <workItem from="1557745089406" duration="631000" />
+      <workItem from="1557756817880" duration="515000" />
+      <workItem from="1557761002839" duration="4183000" />
+      <workItem from="1557791982276" duration="8257000" />
+      <workItem from="1557805537039" duration="851000" />
+      <workItem from="1557807019708" duration="31000" />
+      <workItem from="1557807072564" duration="24000" />
+      <workItem from="1557808239807" duration="2436000" />
+      <workItem from="1557810701263" duration="38000" />
+      <workItem from="1557898802568" duration="1478000" />
+      <workItem from="1557900321971" duration="29000" />
+      <workItem from="1557900372015" duration="12000" />
+      <workItem from="1557913191762" duration="3740000" />
+      <workItem from="1557923252224" duration="6000" />
+      <workItem from="1557988927955" duration="1203000" />
+      <workItem from="1557990501712" duration="2170000" />
+      <workItem from="1557996290412" duration="8324000" />
+      <workItem from="1558009586642" duration="1103000" />
+      <workItem from="1558055249947" duration="11000" />
+      <workItem from="1558193744122" duration="2149000" />
+      <workItem from="1558228342211" duration="10502000" />
+      <workItem from="1558242682734" duration="2745000" />
+      <workItem from="1558245450063" duration="723000" />
+      <workItem from="1558246193286" duration="71000" />
+      <workItem from="1558246737121" duration="5773000" />
+      <workItem from="1558252539799" duration="13000" />
+      <workItem from="1558252674729" duration="10000" />
+      <workItem from="1558252707932" duration="13000" />
+      <workItem from="1558252726172" duration="2863000" />
+      <workItem from="1558332970913" duration="14000" />
+      <workItem from="1558335480415" duration="1589000" />
+      <workItem from="1558337477056" duration="25000" />
+      <workItem from="1558337561767" duration="1251000" />
+      <workItem from="1558361988770" duration="7000" />
+      <workItem from="1558423136532" duration="165000" />
+      <workItem from="1558449454424" duration="575000" />
+      <workItem from="1558450151059" duration="664000" />
+      <workItem from="1558450907172" duration="3421000" />
+      <workItem from="1558522736248" duration="94000" />
+      <workItem from="1558525921885" duration="21000" />
+      <workItem from="1558528590737" duration="204000" />
+      <workItem from="1558529151982" duration="321000" />
+      <workItem from="1558529502895" duration="28000" />
+      <workItem from="1558529572742" duration="90000" />
+      <workItem from="1558530583841" duration="103000" />
+      <workItem from="1558530812194" duration="61000" />
+      <workItem from="1558530912250" duration="212000" />
+      <workItem from="1558531153721" duration="30000" />
+      <workItem from="1558531223965" duration="47000" />
+      <workItem from="1558532415810" duration="99000" />
+      <workItem from="1558532682769" duration="90000" />
+      <workItem from="1558532855632" duration="221000" />
+      <workItem from="1558533109110" duration="31000" />
+      <workItem from="1558533173040" duration="96000" />
+      <workItem from="1558539659929" duration="7000" />
+      <workItem from="1558539806911" duration="126000" />
+      <workItem from="1558540604664" duration="133000" />
+      <workItem from="1558569642604" duration="17000" />
+      <workItem from="1559216142979" duration="526000" />
+      <workItem from="1559222105189" duration="888000" />
+      <workItem from="1560145541706" duration="60000" />
+      <workItem from="1560146078663" duration="316000" />
+      <workItem from="1560146896290" duration="2359000" />
+      <workItem from="1560149645774" duration="7114000" />
+      <workItem from="1560158355854" duration="1279000" />
+      <workItem from="1560161581620" duration="1096000" />
+      <workItem from="1560162783686" duration="869000" />
+      <workItem from="1560175808232" duration="20000" />
+      <workItem from="1560904509844" duration="173000" />
+      <workItem from="1560904786564" duration="13143000" />
+      <workItem from="1560939146804" duration="5579000" />
+      <workItem from="1560944822049" duration="38000" />
+      <workItem from="1560944888138" duration="1400000" />
+      <workItem from="1560946323439" duration="18000" />
+      <workItem from="1560946588730" duration="3000" />
+      <workItem from="1561364939908" duration="2795000" />
+      <workItem from="1561957814843" duration="1351000" />
+      <workItem from="1561968329439" duration="138000" />
+      <workItem from="1561968613609" duration="10655000" />
+      <workItem from="1561997259138" duration="1750000" />
+      <workItem from="1562028701785" duration="5075000" />
+      <workItem from="1562033863672" duration="171000" />
+      <workItem from="1562034070498" duration="66000" />
+      <workItem from="1562034184220" duration="31000" />
+      <workItem from="1562036582203" duration="413000" />
+      <workItem from="1562037026091" duration="24000" />
+      <workItem from="1562037071717" duration="48000" />
+      <workItem from="1562037169610" duration="64000" />
+      <workItem from="1562037638371" duration="865000" />
+      <workItem from="1562051523565" duration="9000" />
+      <workItem from="1562051741333" duration="193000" />
+      <workItem from="1562155646682" duration="638000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="180695000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3791431" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9037037" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962963" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962963" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32962963" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" weight="0.32983023" />
+      <window_info anchor="right" id="Gradle" order="7" visible="true" weight="0.1851253" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32983023" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.1/6b77cd5f22d0c1293fc4c5853a23b4b62e2a3826/ideaIC-2018.3.1-sources.jar!/com/intellij/openapi/fileEditor/FileEditorManagerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.1/6b77cd5f22d0c1293fc4c5853a23b4b62e2a3826/ideaIC-2018.3.1-sources.jar!/com/intellij/execution/testframework/TestStatusListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.1/6b77cd5f22d0c1293fc4c5853a23b4b62e2a3826/ideaIC-2018.3.1-sources.jar!/com/intellij/openapi/wm/WindowManagerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyExecuteAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.1/6b77cd5f22d0c1293fc4c5853a23b4b62e2a3826/ideaIC-2018.3.1-sources.jar!/com/intellij/psi/PsiElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3717">
+          <caret line="194" column="9" selection-start-line="194" selection-start-column="9" selection-end-line="194" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/persist/JsonIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="method#readData#0;class#JsonIO#0" />
+            <element signature="method#writeData#0;class#JsonIO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.1/6b77cd5f22d0c1293fc4c5853a23b4b62e2a3826/ideaIC-2018.3.1-sources.jar!/com/intellij/openapi/util/TextRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="93" column="24" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="24" />
+          <folding>
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyBulkFileListener.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.1/6b77cd5f22d0c1293fc4c5853a23b4b62e2a3826/ideaIC-2018.3.1-sources.jar!/com/intellij/openapi/vfs/newvfs/BulkFileListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2018.3.1/6b77cd5f22d0c1293fc4c5853a23b4b62e2a3826/ideaIC-2018.3.1-sources.jar!/com/intellij/openapi/vfs/VirtualFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/persist/Persistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyDebuggerContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyXBreakpointListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/view/ScaleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyPsiTreeChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/persist/IntelliJEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyEditAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyCaretListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyEditorMouseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyVisibleAreaListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyDocumentListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/util/VirtualFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/topic/MyActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyExecutionTargetListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyCompilationStatusListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MySelectionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyFileDocumentManagerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyFileEditorManagerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyVirtualFileListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1396">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="189" column="11" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="406" column="23" selection-start-line="406" selection-start-column="23" selection-end-line="406" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="8137" column="37" lean-forward="true" selection-start-line="8137" selection-start-column="37" selection-end-line="8137" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="93" column="36" lean-forward="true" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/event/InputEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="280" column="8" selection-start-line="280" selection-start-column="8" selection-end-line="280" selection-end-column="8" />
+          <folding>
+            <element signature="e#14229#14230#0" expanded="true" />
+            <element signature="e#14300#14301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/event/WindowEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="376" column="33" lean-forward="true" selection-start-line="376" selection-start-column="33" selection-end-line="376" selection-end-column="33" />
+          <folding>
+            <element signature="e#13851#13852#0" expanded="true" />
+            <element signature="e#13882#13883#0" expanded="true" />
+            <element signature="e#14552#14553#0" expanded="true" />
+            <element signature="e#14583#14584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="279" column="42" selection-start-line="279" selection-start-column="28" selection-end-line="279" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1382" column="25" selection-start-line="1382" selection-start-column="25" selection-end-line="1382" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/event/MouseEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="257" column="7" lean-forward="true" selection-start-line="257" selection-start-column="7" selection-end-line="257" selection-end-column="7" />
+          <folding>
+            <element signature="e#17177#17178#0" expanded="true" />
+            <element signature="e#17204#17205#0" expanded="true" />
+            <element signature="e#39028#39029#0" expanded="true" />
+            <element signature="e#39057#39058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="192" column="5" lean-forward="true" selection-start-line="192" selection-start-column="5" selection-end-line="192" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyDebuggerManagerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/edit/MyKeystrokeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/topic/MyTopicAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/compat/AppInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/persist/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2289">
+          <caret line="195" column="37" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#count#0;class#MyThread#0;class#Statistics#0" />
+            <element signature="method#count2input#0;class#MyThread#0;class#Statistics#0" />
+            <element signature="method#count2development#0;class#MyThread#0;class#Statistics#0" />
+            <element signature="method#count2performance#0;class#MyThread#0;class#Statistics#0" />
+            <element signature="method#execute#0;class#Statistics#0" />
+            <element signature="method#shutdown#0;class#Statistics#0" />
+            <element signature="method#start#0;class#Statistics#0" />
+            <element signature="method#stop#0;class#Statistics#0" />
+            <element signature="method#add#0;class#Statistics#0" />
+            <element signature="method#remove#0;class#Statistics#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/EntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/debug/MyDebugAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/util/AWTUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6741">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getKeyChar#0;class#AWTUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/listener/execute/MyExecutionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com.zzw.action-tracker-control</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.google.code.gson:gson:2.8.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
