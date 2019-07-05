@@ -7,6 +7,8 @@ import com.zzw.persist.Statistics;
 import com.zzw.scale.control.LikertScale;
 import com.zzw.scale.model.AnswerModel;
 import com.zzw.scale.view.LikertScaleDialog;
+import com.zzw.tools.io.OkTextReader;
+import com.zzw.tools.io.OkTextWriter;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
@@ -119,8 +121,19 @@ public class ScaleManager implements Disposable,
             // intellij idea is not activated
             return;
         }
-
-        long lastShowTime = mLastShowTime.get();
+        File file=new File(rootPath+File.separator+"scale_instance.txt");
+        if(!file.exists()){
+            OkTextWriter writer=new OkTextWriter();
+            writer.open(rootPath+File.separator+"scale_instance.txt");
+            writer.println("1000000000000");
+            writer.close();
+        }
+        OkTextReader reader = new OkTextReader();
+        reader.open(rootPath+File.separator+"scale_instance.txt");
+        String line = reader.readLine();
+        long lastShowTime=Long.parseLong(line);
+        reader.close();
+        //long lastShowTime = mLastShowTime.get();
         if ((lastShowTime != -1) && (time - lastShowTime < MINIMUM_INTERVAL_TIME)) {
             // duration between current time and last opened time is less than 1 hour
             return;
@@ -178,7 +191,11 @@ public class ScaleManager implements Disposable,
 
     @Override
     public void confirmed(List<AnswerModel> list) {
-        mLastShowTime.set(System.currentTimeMillis());
+        //mLastShowTime.set(System.currentTimeMillis());
+        OkTextWriter writer = new OkTextWriter();
+        writer.open(rootPath+File.separator+"scale_instance.txt");
+        writer.println(System.currentTimeMillis()+"");
+        writer.close();
     }
 
     @Override
