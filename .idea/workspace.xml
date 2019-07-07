@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="317d7294-ed30-4032-9cb5-d1aa6129a686" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/likert-scale-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/likert-scale-0.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/EntryPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/view/ScaleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/view/ScaleManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/view/ScaleManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="198" selection-start-line="198" selection-end-line="198" />
+            <state relative-caret-position="294">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -569,12 +566,12 @@
       <workItem from="1562332097664" duration="8917000" />
       <workItem from="1562407551853" duration="193000" />
       <workItem from="1562493698364" duration="387000" />
-      <workItem from="1562500952354" duration="163000" />
+      <workItem from="1562500952354" duration="393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193363000" />
+    <option name="totallyTimeSpent" value="193593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,7 +586,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26677445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26677445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -598,7 +595,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9034707" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.90166974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,7 +614,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Key Promoter X" order="6" weight="0.32983023" />
-      <window_info anchor="right" id="Gradle" order="7" weight="0.1444563" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.14389652" />
       <window_info anchor="right" id="Database" order="8" weight="0.32983023" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
@@ -1007,8 +1004,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/view/ScaleManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        <state relative-caret-position="294">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

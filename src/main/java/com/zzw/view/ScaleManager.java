@@ -29,7 +29,7 @@ public class ScaleManager implements Disposable,
     private static final long MAXIMUM_INACTIVATE_TIME = 30 * 1000;      // 30 seconds
     private static final long MINIMUM_INTERVAL_TIME = 60 * 60 * 1000;   // 60 minutes
     private AtomicLong mLastActiveTime = new AtomicLong(-1);
-    private AtomicLong mLastShowTime = new AtomicLong(-1);
+//    private AtomicLong mLastShowTime = new AtomicLong(-1);
     private AtomicBoolean mIsWinActivated = new AtomicBoolean(false);
     private Timer timer = new Timer();
     private String rootPath = System.getProperty("user.home") + File.separator +
