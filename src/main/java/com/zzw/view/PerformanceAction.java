@@ -5,6 +5,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.zzw.scale.view.PerformanceFrame;
 import org.jetbrains.annotations.NotNull;
 
+//表格框架
 public class PerformanceAction extends AnAction {
     private PerformanceFrame frame = new PerformanceFrame(0.5);
 

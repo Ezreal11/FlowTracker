@@ -9,7 +9,7 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Disposer;
 import com.intellij.util.messages.MessageBusConnection;
 import com.zzw.view.ScaleManager;
-
+//Execute记录模块管理器
 public class MyExecuteAgent implements Disposable {
     private Project project;
     private CompilationStatusListener compilationStatusListener;

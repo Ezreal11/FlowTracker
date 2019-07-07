@@ -8,7 +8,7 @@ import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
 import com.zzw.util.VirtualFileUtil;
 import org.jetbrains.annotations.NotNull;
-
+//文件(File)监视器,当文件被打开、关闭时触发
 public class MyFileEditorManagerListener implements FileEditorManagerListener {
     private static final String TYPE = "File";
 

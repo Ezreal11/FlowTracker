@@ -11,6 +11,7 @@ import com.zzw.persist.Persistence;
 import java.util.HashMap;
 import java.util.Map;
 
+//Topic模块监视器，记录在IDEA里触发的功能事件(事件的开始)，例如“开始编译”、“开始执行”等
 public class MyActionListener implements AnActionListener {
     private static final String TYPE = "Action";
     private Map<String, String> class2id;

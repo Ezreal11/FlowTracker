@@ -7,7 +7,7 @@ import com.zzw.persist.Persistence;
 import com.zzw.util.StringUtil;
 import com.zzw.util.VirtualFileUtil;
 import org.jetbrains.annotations.NotNull;
-
+//Virtual File模块监视器，包括file_created,file_deleted,file_moved等
 public class MyVirtualFileListener implements VirtualFileListener {
     private static final String TYPE = "File";
 

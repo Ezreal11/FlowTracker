@@ -10,7 +10,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.List;
-
+//键盘(Keyboard)事件监听器，记录每次键盘按键的内容
 public class MyKeystrokeListener implements Disposable {
     private AWTEventListener keystrokeListener;
     private AWTEventListener mouseListener;

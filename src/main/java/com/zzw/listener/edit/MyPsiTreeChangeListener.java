@@ -7,7 +7,7 @@ import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
 import com.zzw.util.StringUtil;
 import org.jetbrains.annotations.NotNull;
-
+//编辑(Edit)事件监视器
 public class MyPsiTreeChangeListener implements PsiTreeChangeListener {
     private static final String TYPE = "Edit";
 

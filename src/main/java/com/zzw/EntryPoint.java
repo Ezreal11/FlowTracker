@@ -20,7 +20,7 @@ import org.jetbrains.annotations.NotNull;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+//插件程序入口
 public class EntryPoint implements ProjectComponent {
     private Project project;
     private MyDebugAgent debugAgent;
@@ -32,6 +32,7 @@ public class EntryPoint implements ProjectComponent {
     private ScaleManager scaleManager;
     public static final OkTextWriter LOGGER = new OkTextWriter();
 
+    //log信息位置——记录在C盘用户目录下
     static {
         String userHome = System.getProperty("user.home");
         String dateStr = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
@@ -45,7 +46,7 @@ public class EntryPoint implements ProjectComponent {
         LOGGER.println("EntryPoint constructor");
         this.project = project;
     }
-
+    //初始化
     @Override
     public void initComponent() {
         LOGGER.println("initComponent");

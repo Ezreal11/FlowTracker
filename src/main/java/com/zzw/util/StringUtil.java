@@ -3,7 +3,7 @@ package com.zzw.util;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
+//MyVisibleArea辅助类
 public class StringUtil {
     public static boolean isDifferent(Object oldObj, Object newObj) {
         String oldStr = (oldObj == null) ? "" : oldObj.toString();

@@ -21,6 +21,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
+//问卷模块,当每次填完问卷将填写时间记录在本地，固定时长以后再弹出问卷
 public class ScaleManager implements Disposable,
         MyKeystrokeListener.KeyActivationListener,
         MyExecutionListener.ExecutionActivationListener,

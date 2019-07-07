@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.Semaphore;
 
+//数据可视化模块，展现前一天交互数据统计情况
 public class Statistics implements LikertScaleDialog.ConfirmListener {
     public static final int KEY_RELEASED = 0;
     public static final int MOUSE_CLICKED = 1;

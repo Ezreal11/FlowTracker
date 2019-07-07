@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Execute记录模块，记录每个Execute事件在时间上的流程，包括事件开始、结束、取消等
 public class MyExecutionListener implements ExecutionListener {
     private static final String TYPE = "Execute";
     private final List<ExecutionActivationListener> listeners = new ArrayList<>();

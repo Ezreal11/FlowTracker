@@ -1,7 +1,7 @@
 package com.zzw.compat;
 
 import com.intellij.openapi.application.ApplicationInfo;
-
+//记录当前IDE的具体信息，最终会输出到本地log，例如版本号等
 public class AppInfo {
     private static ApplicationInfo info = ApplicationInfo.getInstance();
 

@@ -1,5 +1,5 @@
 package com.zzw.persist;
-
+//统计某个时间段内键盘和鼠标活动数，用来检测用户这段时间是否活跃
 public class Input {
     private long begTime;       // begin time
     private long endTime;       // end time

@@ -7,7 +7,7 @@ import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
 import com.zzw.util.VirtualFileUtil;
 import org.jetbrains.annotations.NotNull;
-
+//文件(File)监视器,当文件被加载，保存等情况时触发
 public class MyFileDocumentManagerListener implements FileDocumentManagerListener {
     private static final String TYPE = "File";
 

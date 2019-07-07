@@ -5,7 +5,7 @@ import com.intellij.debugger.impl.DebuggerSession;
 import com.intellij.openapi.project.Project;
 import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
-
+//Debug事件监听器里 监听session相关事件的信息，包括session_created,session_attached,sessiondetached,session_removed
 public class MyDebuggerManagerListener implements DebuggerManagerListener {
     private static final String TYPE = "Debug";
 

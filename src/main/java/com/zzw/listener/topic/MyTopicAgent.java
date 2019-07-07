@@ -7,7 +7,7 @@ import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.util.Disposer;
 import com.intellij.util.messages.MessageBusConnection;
 import com.zzw.compat.AppInfo;
-
+//Topic事件管理器
 public class MyTopicAgent implements Disposable {
     private AnActionListener actionListener;
 

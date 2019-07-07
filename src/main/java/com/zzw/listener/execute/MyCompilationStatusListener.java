@@ -5,7 +5,7 @@ import com.intellij.openapi.compiler.CompileContext;
 import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
 import org.jetbrains.annotations.NotNull;
-
+//Execute记录模块，记录编译事件（Compile）
 public class MyCompilationStatusListener implements CompilationStatusListener {
     private static final String TYPE = "Compile";
 

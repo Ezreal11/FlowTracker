@@ -9,6 +9,7 @@ import static java.awt.event.KeyEvent.*;
 import static java.awt.event.MouseEvent.*;
 import static java.awt.event.WindowEvent.*;
 
+//将IDEA返回的可能涉及隐私信息的数据模糊，例如抹除具体按键等
 public class AWTUtil {
     public static String getKeyId(int id) {
         switch (id) {

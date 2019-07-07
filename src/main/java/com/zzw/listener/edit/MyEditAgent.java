@@ -14,6 +14,7 @@ import com.intellij.psi.PsiTreeChangeListener;
 import com.intellij.util.messages.MessageBusConnection;
 import com.zzw.view.ScaleManager;
 
+//Edit事件监听器，监听键盘，鼠标，光标，编辑事件
 public class MyEditAgent implements Disposable {
     private Project project;
     private EditorEventMulticaster multicaster;

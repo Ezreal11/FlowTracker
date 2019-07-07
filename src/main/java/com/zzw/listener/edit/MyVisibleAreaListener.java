@@ -10,7 +10,7 @@ import com.zzw.util.StringUtil;
 import org.jetbrains.annotations.NotNull;
 
 import java.awt.*;
-
+//记录修改文件内容的修改量
 public class MyVisibleAreaListener implements VisibleAreaListener {
     private static final String TYPE = "View";
 

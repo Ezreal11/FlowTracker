@@ -3,6 +3,7 @@ package com.zzw.persist;
 import java.util.HashMap;
 import java.util.Map;
 
+//获取IntelliJ IDEA平台提供的事件
 public class IntelliJEvent {
     private long time;
     private String type;

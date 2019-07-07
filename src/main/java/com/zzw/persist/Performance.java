@@ -1,5 +1,6 @@
 package com.zzw.persist;
 
+//问卷数据log格式
 public class Performance {
     private long time;
     private int engagement;

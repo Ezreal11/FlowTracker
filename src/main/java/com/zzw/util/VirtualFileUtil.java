@@ -3,7 +3,7 @@ package com.zzw.util;
 import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.fileEditor.FileDocumentManager;
 import com.intellij.openapi.vfs.VirtualFile;
-
+//辅助VirtualFile
 public class VirtualFileUtil {
     public static Document getDocument(VirtualFile file) {
         if (file == null || (!file.exists())) {

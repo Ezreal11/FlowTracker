@@ -9,6 +9,7 @@ import com.zzw.persist.Persistence;
 import com.zzw.util.VirtualFileUtil;
 import org.jetbrains.annotations.NotNull;
 
+//监视文档是否被修改的事件，同时记录修改前后的文档属性，例如修改行数、文档长度等
 public class MyDocumentListener implements DocumentListener {
     private static final String TYPE = "File";
 

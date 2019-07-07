@@ -5,7 +5,7 @@ import com.intellij.xdebugger.breakpoints.XBreakpointListener;
 import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
 import org.jetbrains.annotations.NotNull;
-
+//Debug事件监听器里 监听断点（breakpoint）的信息,包括breakpoint_added,breakpoint_removed,breakpoint_changed
 public class MyXBreakpointListener implements XBreakpointListener<XBreakpoint<?>> {
     private static final String TYPE = "Debug";
 

@@ -7,7 +7,7 @@ import com.intellij.openapi.project.Project;
 import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
 import org.jetbrains.annotations.NotNull;
-
+//Debug事件监听器里 监听context_changed事件的信息
 public class MyDebuggerContextListener implements DebuggerContextListener {
     private static final String TYPE = "Debug";
 

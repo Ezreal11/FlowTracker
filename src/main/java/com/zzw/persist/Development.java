@@ -1,5 +1,5 @@
 package com.zzw.persist;
-
+//处理活跃时间和非活跃时间
 public class Development {
     private long activatedTime;     // time indicates the IntelliJ IDEA is activated
     private long deactivatedTime;   // time indicates the IntelliJ IDEA is deactivated

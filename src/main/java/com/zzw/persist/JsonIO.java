@@ -9,7 +9,7 @@ import java.io.File;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
-
+//以json格式输出到日志
 public class JsonIO {
     public static List<Input> readInputData(String path) {
         return readData(path);

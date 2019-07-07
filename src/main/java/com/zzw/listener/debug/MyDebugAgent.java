@@ -4,7 +4,7 @@ import com.intellij.debugger.DebuggerManagerEx;
 import com.intellij.openapi.Disposable;
 import com.intellij.openapi.project.Project;
 import com.intellij.xdebugger.XDebuggerManager;
-
+//Debug事件监视器管理器，管理监听到的下面三大类debug事件
 public class MyDebugAgent implements Disposable {
     private Project project;
     private MyDebuggerContextListener debuggerContextListener;

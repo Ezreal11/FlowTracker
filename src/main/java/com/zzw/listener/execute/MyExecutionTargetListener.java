@@ -6,6 +6,7 @@ import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
 import org.jetbrains.annotations.NotNull;
 
+//Execute记录模块，记录每个Active_target_changed事件
 public class MyExecutionTargetListener implements ExecutionTargetListener {
     private static final String TYPE = "Execute";
 

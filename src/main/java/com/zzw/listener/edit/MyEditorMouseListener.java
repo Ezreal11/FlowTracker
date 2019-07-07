@@ -8,7 +8,8 @@ import com.zzw.persist.Persistence;
 import org.jetbrains.annotations.NotNull;
 
 import java.awt.event.MouseEvent;
-
+//鼠标(Mouse)事件监视器,包括mouse_pressed,mouse_clicked,mouse_clicked,mouse_released,
+//mouse_entered,mouse_exited,mouse_moved,mouse_dragged
 public class MyEditorMouseListener implements EditorMouseListener, EditorMouseMotionListener {
     private static final String TYPE = "Edit";
 

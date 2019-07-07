@@ -7,7 +7,7 @@ import com.zzw.persist.IntelliJEvent;
 import com.zzw.persist.Persistence;
 import com.zzw.util.StringUtil;
 import org.jetbrains.annotations.NotNull;
-
+//光标(Cursor)事件监视器，包括选择事件
 public class MySelectionListener implements SelectionListener {
     private static final String TYPE = "Cursor";
 

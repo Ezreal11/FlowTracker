@@ -10,6 +10,7 @@ import com.zzw.persist.Persistence;
 import com.zzw.util.StringUtil;
 import org.jetbrains.annotations.NotNull;
 
+//光标(Cursor)事件监视器，包括caret_changed,caret_added,caret_removed事件
 public class MyCaretListener implements CaretListener {
     private static final String TYPE = "Cursor";
 

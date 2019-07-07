@@ -12,6 +12,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.Semaphore;
 
+//持久层，保证数据采集工具一直运行
 public class Persistence {
     private static final long ONE_HOUR = 60 * 60 * 1000;
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyyMMdd");
