@@ -96,7 +96,7 @@ public class EntryPoint implements ProjectComponent {
 
         String rootPath = System.getProperty("user.home") + File.separator +
                 "interaction_traces" + File.separator + "scale";
-        LikertScale scale = new LikertScale(rootPath);
+        LikertScale scale = new LikertScale(rootPath, true);
         scale.addConfirmListener(Statistics.getInstance());
         scale.showLikertScaleDialog(false);
 
