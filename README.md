@@ -16,19 +16,20 @@ The **subjective-flow-questionniare** project products a questionnaire to sample
 
 ![structure](images/structure.png)
 
+## IDE Support
 
+**FlowTracker** is compatible with *IntelliJ IDEA* **`2018.1`**, **`2018.2`**, **`2018.3`** and **`2019.1`**;
+**FlowTracker** is also compatible with *Android Studio* with version >= **`3.2`**.
 
 ## Installation
 
 To install the **FlowTracker** plugin in *IntelliJ IDEA*, you can follow the following steps:
 
-1. Check the version of your *IntelliJ IDEA*: **FlowTracker** is compatible with *IntelliJ IDEA* **`2018.1`**, **`2018.2`**, **`2018.3`** and **`2019.1`**;
-2. Get **FlowTracker**: you can get the built plugin from *interaction-activity-tracker/plugin/interaction-activity-tracker-1.0.0.zip* or build the plugin from source code by yourself;
-3. Open *IntelliJ IDEA*, following ***File***, ***Settings...***, ***Plugins***, ***Install Plugin from Disk...***, select the *zip* file of plugin, ***OK***;
-4. Restart your *IntelliJ IDEA*, **FlowTracker** is working now and have a good time!
-
-*<span style="color:red">Support for Android Studio</span>*: **FlowTracker** also can be installed in *Android Studio*, and works in *Android Studio* whose version does not less than **`3.2`**.
-
+1. Check the version of your IDE against the versions listed above;
+2. Dowload the binary of **FlowTracker** plugin from *interaction-activity-tracker/plugin/interaction-activity-tracker-1.0.0.zip* 
+3. [Optional] You can build the plugin from source code following the steps introduced below;
+4. Open your IDE, following ***File***, ***Settings...***, ***Plugins***, ***Install Plugin from Disk...***, select the *zip* file of plugin, ***OK***;
+5. Restart your IDE, **FlowTracker** is working now and have a good time!
 
 
 ## Building Plugin from Source Code
