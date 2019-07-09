@@ -6,15 +6,13 @@ FlowTracker is a pulgin for IntelliJ IDEA, which can capture the interaction act
 
 ## Structure
 
-This repository consists of two project: one is **interaction-activity-tracker** and another is **subjective-flow-questionnaire**, both **interaction-activity-tracker** and **subjective-flow-questionnaire** projects make up **FlowTracker** plugin.
+This repository consists of two project: one is **flow-tracker** and another is **subjective-flow-questionnaire**.
 
-The **interaction-activity-tracker** project products a plugin named of *IntelliJ IDEA*. This plugin is developed follow the [***IntelliJ Platform SDK***](http://www.jetbrains.org/intellij/sdk/docs/welcome.html), which can only capture interaction activities dispatched by the **IntelliJ Event Queue** and cannot capture anything out of IDE.
+The **flow-tracker** project products a plugin named **FlowTracker** for *IntelliJ IDEA*. This plugin is developed follow the [***IntelliJ Platform SDK***](http://www.jetbrains.org/intellij/sdk/docs/welcome.html), which can only capture interaction activities dispatched from the **IntelliJ Event Queue** and cannot capture anything out of IDE.
 
-The **subjective-flow-questionniare** project products a questionnaire to sample developers' subjective flow experience. This questionnaire is packed into a independent *jar* package, which is used as a dependency library for the **interaction-activity-tracker** project. The reason for this is that, there will be Chinese scrambling problem when the questionnaire is directly implemented in the **interaction-activity-tracker** project, but the Chinese can be displayed normally after the questionnaire is packed into a *jar* package.
+The **subjective-flow-questionniare** project products a questionnaire to sample developers' subjective flow experience. This questionnaire is packed into a independent *jar* package, which is used as a dependency library for the **flow-tracker** project. The reason for this is that, there will be Chinese scrambling problem when the questionnaire is directly implemented in the **flow-tracker** project, but the Chinese can be displayed normally after the questionnaire is packed into a *jar* package.
 
 
-
-![structure](images/structure.png)
 
 ## IDE Support
 
@@ -27,7 +25,7 @@ It is also compatible with *Android Studio* with version >= **`3.2`**.
 To install the **FlowTracker** plugin in *IntelliJ IDEA*, you can follow the following steps:
 
 1. Check the version of your IDE against the versions listed above;
-2. Dowload the binary of **FlowTracker** plugin from *interaction-activity-tracker/plugin/interaction-activity-tracker-1.0.0.zip* 
+2. Dowload the binary of **FlowTracker** plugin from `flow-tracker/plugin/flow-tracker-1.0.0.zip`; 
 3. [Optional] You can build the plugin from source code following the steps introduced below;
 4. Open your IDE, following ***File***, ***Settings...***, ***Plugins***, ***Install Plugin from Disk...***, select the *zip* file of plugin, ***OK***;
 5. Restart your IDE, **FlowTracker** is working now and have a good time!
@@ -39,6 +37,6 @@ If you want to build **FlowTracker** from the source code, please follow the fol
 
 1. Create a plugin development project follow the [office tutorial](http://www.jetbrains.org/intellij/sdk/docs/tutorials/build_system/prerequisites.html);
 2. Checkout the source code from this repository;
-3. Import `lib/`, `src/` and `build.gradle` from the **interaction-activity-tracker** project into your project;
+3. Import `lib/`, `src/` and `build.gradle` from the **flow-tracker** project into your project;
 4. Use *gradle* to build **FlowTracker** plugin.
 
