@@ -1,11 +1,11 @@
 <idea-plugin>
     <version>1.0.0</version>
-    <id>edu.nju.ics.frontier.interaction-activity-tracker</id>
-    <name>Interaction Activity Tracker</name>
-    <vendor email="zwzheng@smail.nju.edu.cn" url="https://github.com/jzyhywxz">南京大学 计算机软件研究所 交叉与前沿中心</vendor>
+    <id>edu.nju.ics.frontier.flow-tracker</id>
+    <name>FlowTracker</name>
+    <vendor email="zwzheng@smail.nju.edu.cn" url="https://github.com/jzyhywxz/FlowTracker">南京大学 计算机软件研究所 交叉与前沿中心</vendor>
 
     <description><![CDATA[
-    This plugin is used to capture software developers' <em>Interaction Activities</em> triggered in IDE.
+    This plugin is used to capture software developers' <em>Interaction Activities</em> triggered in IDE and sample developers' flow states.
     ]]></description>
 
     <idea-version since-build="181"/>
