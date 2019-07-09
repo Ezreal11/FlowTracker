@@ -19,7 +19,8 @@ The **subjective-flow-questionniare** project products a questionnaire to sample
 ## IDE Support
 
 **FlowTracker** is compatible with *IntelliJ IDEA* **`2018.1`**, **`2018.2`**, **`2018.3`** and **`2019.1`**;
-**FlowTracker** is also compatible with *Android Studio* with version >= **`3.2`**.
+
+It is also compatible with *Android Studio* with version >= **`3.2`**.
 
 ## Installation
 
