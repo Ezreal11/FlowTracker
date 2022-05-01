@@ -53,6 +53,7 @@ public class Recognition_module {
         //System.out.println(s);
         long newtime= Long.parseLong(s)/1000;
         update(newtime);
+        System.out.println("ondata:buffersize= "+dataBuffer.size());
     }
     //获取当前识别结果
     public int getResult(String alg) throws IOException {

@@ -2,6 +2,7 @@ package edu.nju.ics.frontier.persist;
 
 import com.google.gson.Gson;
 import edu.nju.ics.frontier.EntryPoint;
+import edu.nju.ics.frontier.Recognition_module;
 import edu.nju.ics.frontier.util.OkTextWriter;
 
 import java.io.File;
@@ -84,6 +85,8 @@ public class Persistence {
      */
     private static Persistence instance;
 
+
+    private Recognition_module rm=Recognition_module.getInstance();
     /**
      * persistence thread
      */
@@ -224,6 +227,10 @@ public class Persistence {
         if (event == null) {
             return;
         }
+
+        //===================================add Ondata
+        rm.onData(gson.toJson(event));
+
 
         queue.addLast(event);
         queueSema.release();
