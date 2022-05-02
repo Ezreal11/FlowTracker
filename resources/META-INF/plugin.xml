@@ -16,6 +16,7 @@
   <depends>com.intellij.modules.lang</depends>
   -->
   <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.platform</depends>
 
   <project-components>
     <component>
@@ -31,13 +32,17 @@
 
 
   <actions>
+    <group id="FlowTracker" text="FlowTracker">
+      <add-to-group group-id="MainMenu" anchor="last" />
+    </group>
+
     <!-- Add your actions here -->
     <action id="Recognition Result" class="edu.nju.ics.frontier.Rec" text="Recognition Result" description="Recognition Result">
-      <add-to-group group-id="HelpMenu" anchor="last"/>
+      <add-to-group group-id="FlowTracker" anchor="last"/>
     </action>
     <action id="GetRecLog" class="edu.nju.ics.frontier.GetRecLog" text="GetRecLog"
             description="Get the previous recognition result in a log file">
-      <add-to-group group-id="HelpMenu" anchor="last"/>
+      <add-to-group group-id="FlowTracker" anchor="last"/>
     </action>
   </actions>
 </idea-plugin>

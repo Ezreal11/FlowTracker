@@ -15,7 +15,7 @@ public class GetRecLog extends AnAction {
             Recognition_module.getInstance().getLog();
             String userHome = System.getProperty("user.home");
             String rootpath = userHome  + "\\interaction_traces\\";
-            Messages.showMessageDialog("Recognition Log Is In folder:  "+rootpath+"src", "Logging successgully!", Messages.getInformationIcon());
+            Messages.showMessageDialog("Recognition Log Is In folder:  "+rootpath, "Logging successgully!", Messages.getInformationIcon());
         } catch (IOException e1) {
             e1.printStackTrace();
             Messages.showMessageDialog("Recognition Logging failed", "Logging failed!", Messages.getInformationIcon());

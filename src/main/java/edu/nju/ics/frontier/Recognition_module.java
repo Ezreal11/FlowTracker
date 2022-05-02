@@ -8,6 +8,9 @@ import java.util.Date;
 import java.util.LinkedList;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.intellij.ide.plugins.IdeaPluginDescriptor;
+import com.intellij.ide.plugins.PluginManager;
+import com.intellij.openapi.extensions.PluginId;
 
 
 //单例模式
@@ -15,18 +18,21 @@ public class Recognition_module {
     private static final Recognition_module recModule=new Recognition_module();
     private LinkedList<String> dataBuffer;      //30min的数据缓冲区
     private ArrayList<RecResult> resultLog;     //识别结果的记录
+    String ScriptPath;
     private Recognition_module() {
         dataBuffer=new LinkedList<String>();
         resultLog=new ArrayList<RecResult>();
-
+        PluginId pluginId = PluginId.getId("edu.nju.ics.frontier.flow-tracker");
+        IdeaPluginDescriptor plugin = PluginManager.getPlugin(pluginId);
+        File path = plugin.getPath();
+        ScriptPath= path.getAbsolutePath()+"/classes/";
+        System.out.println(ScriptPath);
         //调试仿真
-        String userHome = System.getProperty("user.home");
-        String rootpath = userHome  + "/interaction_traces/";
-        try {
-            LoadBufferFromFile(rootpath+"src/temp.json");
+        /*try {
+            LoadBufferFromFile(ScriptPath+"temp.json");
         }catch (IOException ioException) {
             ioException.printStackTrace();
-        }
+        }*/
 
     }
 
@@ -35,7 +41,8 @@ public class Recognition_module {
         return recModule;
     }
     //维护缓冲区
-    private void update(long curtime) {
+    private void update() {
+        long curtime=System.currentTimeMillis()/1000;
         if(dataBuffer.isEmpty())
             return;
 
@@ -44,6 +51,8 @@ public class Recognition_module {
             dataBuffer.removeFirst();
         }
     }
+
+
     //添加数据
     public void onData(String data) {
         dataBuffer.addLast(data);
@@ -52,15 +61,17 @@ public class Recognition_module {
         String s=curop.getString("time");
         //System.out.println(s);
         long newtime= Long.parseLong(s)/1000;
-        update(newtime);
+        //update(newtime);
+        update();
         System.out.println("ondata:buffersize= "+dataBuffer.size());
     }
     //获取当前识别结果
     public int getResult(String alg) throws IOException {
+        update();
         System.out.println("current buffer size:  "+dataBuffer.size());
         String userHome = System.getProperty("user.home");
-        String rootpath = userHome  + "/interaction_traces/";
-        FileOutputStream fos = new FileOutputStream(rootpath+"src/piece.json",false);
+        String rootpath = userHome  + "/interaction_traces/src/";
+        FileOutputStream fos = new FileOutputStream(ScriptPath+"piece.json",false);
         for(String s:dataBuffer)
         {
             s+='\n';
@@ -68,19 +79,20 @@ public class Recognition_module {
             fos.write(bytes);
         }
         fos.close();
-        RunPython.runfun(rootpath+"src/Data_Process.py","process",rootpath+"src/piece.json",rootpath+"src/feature.json");
-        RunPython.runfun(rootpath+"src/Data_Process.py","abstract",rootpath+"src/piece.json",rootpath+"src/abstract.json");
-        RunPython.runfun(rootpath+"src/Data_Process.py","getfeature",rootpath+"src/abstract.json",rootpath+"src/feature.json");
-        File file = new File(rootpath+"src/piece.json");
+        //rootpath=ScriptPath;
+        RunPython.runfun(ScriptPath+"Data_Process.py","process",ScriptPath+"piece.json",ScriptPath+"feature.json");
+        RunPython.runfun(ScriptPath+"Data_Process.py","abstract",ScriptPath+"piece.json",ScriptPath+"abstract.json");
+        RunPython.runfun(ScriptPath+"Data_Process.py","getfeature",ScriptPath+"abstract.json",ScriptPath+"feature.json");
+        File file = new File(ScriptPath+"piece.json");
         file.delete();
-        file = new File(rootpath+"src/abstract.json");
+        file = new File(ScriptPath+"abstract.json");
         file.delete();
         //file = new File("src/piece.json");
         //file.delete();
 
         //RunPython.runfun("src/Random_forest.py","recognize","","");
 
-        int returnval=RunPython.run(rootpath+"src/Random_forest.py",rootpath+"src/feature.json");
+        int returnval=RunPython.run(ScriptPath+"Random_forest.py",ScriptPath+"feature.json");
         System.out.println(returnval);
         Date date=new Date();
         SimpleDateFormat formater = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -104,7 +116,7 @@ public class Recognition_module {
     public void getLog() throws IOException {
         String userHome = System.getProperty("user.home");
         String rootpath = userHome  + "/interaction_traces/";
-        FileOutputStream fos = new FileOutputStream(rootpath+"src/Log.txt",false);
+        FileOutputStream fos = new FileOutputStream(rootpath+"Log.txt",false);
         for(RecResult res:resultLog)
         {
             String s=res.time+":     "+(res.result==1?"engaged":"not engaged");
@@ -131,15 +143,5 @@ public class Recognition_module {
         }
     }
 
-    public static void main(String[] args) throws IOException, InterruptedException {
-        System.out.println("Hello world!");
-        //RunPython.run("src/Random_forest.py");
-        Recognition_module rm=new Recognition_module();
-        rm.LoadBufferFromFile("/src/temp.json");
-        System.out.println(rm.dataBuffer.size());
-        rm.getResult("1");
-        rm.getResult("1");
-        rm.getLog();
 
-    }
 }
